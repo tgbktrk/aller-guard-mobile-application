@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="end">
+    <!-- <ion-button id="open-modal">   -->
+    <ion-button (click)="openAllergenModal()">  
+      <ion-icon name="add"></ion-icon>
+    </ion-button>
+    </ion-buttons>
+    <ion-title>
+      My Allergens
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item-sliding *ngFor="let allergen of userAllergens">
+      <ion-item-options side="end">
+        <ion-item-option color="danger" (click)="removeAllergen(allergen)" >DELETE</ion-item-option>
+      </ion-item-options>
+
+      <ion-item>
+        <ion-label>
+          {{allergen}}
+        </ion-label>
+      </ion-item>
+    </ion-item-sliding>
+  </ion-list>
+
+  
+</ion-content>
+
+  
+

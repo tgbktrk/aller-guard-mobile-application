@@ -1,0 +1,59 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title class="title">
+      Settings
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+    <ion-list lines="none">
+
+      <ion-item button [routerLink]="['/profile']">
+        <div class="icon-wrapper">
+          <ion-icon slot="start" name="person-outline"></ion-icon>
+        </div>
+          <ion-label>Profile</ion-label>
+      </ion-item>
+
+      <ion-item button [routerLink]="['/news']">
+        <div class="icon-wrapper">
+          <ion-icon slot="start" name="newspaper-outline"></ion-icon>
+        </div>
+        <ion-label>News</ion-label>
+      </ion-item>
+
+      <ion-item button [routerLink]="['/faq']">
+        <div class="icon-wrapper">
+          <ion-icon slot="start" name="help-circle-outline"></ion-icon>
+        </div>
+        <ion-label>FAQ</ion-label>
+      </ion-item>
+
+      <ion-item button [routerLink]="['/about']">
+        <div class="icon-wrapper">
+          <ion-icon slot="start" name="document-text-outline"></ion-icon>
+        </div>
+        <ion-label>About</ion-label>
+      </ion-item>
+
+    <hr>
+
+<ion-item button *ngIf="isButtonVisible" (click)="signout()">
+  <div class="icon-wrapper">
+    <ion-icon slot="start" name="log-out-outline"></ion-icon>
+  </div>
+  <ion-label>Sign Out</ion-label>
+</ion-item>
+
+<ion-item button *ngIf="!isButtonVisible" (click)="signUp()">
+  <div class="icon-wrapper">
+    <ion-icon slot="start" name="log-in-outline"></ion-icon>
+  </div>
+  <ion-label>Sign In or Sign Up</ion-label>
+</ion-item>
+
+</ion-list>
+
+</ion-content>

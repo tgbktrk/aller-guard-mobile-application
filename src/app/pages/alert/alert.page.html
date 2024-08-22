@@ -1,0 +1,7 @@
+<ion-button id="present-alert">Click Me</ion-button>
+<ion-alert
+  trigger="present-alert"
+  header="Alert!"
+  [buttons]="allergenAlert"
+  (didDismiss)="setResult($event)"
+></ion-alert>

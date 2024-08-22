@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1093125381093",
+    "project_id": "allergen-demo",
+    "storage_bucket": "allergen-demo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093125381093:android:b5955c0997bfb939152d0c",
+        "android_client_info": {
+          "package_name": "io.ionic.starter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf-VRXg6AT5syyNe4aJ_WRtNqpNp3DCQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

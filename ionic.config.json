@@ -1,0 +1,8 @@
+{
+  "name": "allergen-demo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "innerHTMLTemplatesEnabled": true
+}

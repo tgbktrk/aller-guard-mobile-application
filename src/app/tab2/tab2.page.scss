@@ -1,0 +1,19 @@
+ion-content{
+    --background: #f8f9fa;
+}
+
+ion-toolbar {
+    --background: #3880ff;
+    --color: #fff;
+    ion-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+  }
+
+.label{
+    text-align: center;
+    color: #fff;
+}

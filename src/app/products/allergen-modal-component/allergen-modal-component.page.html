@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Select Alergen</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="dismissModal()">Close</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let allergen of allergens" (click)="toggleAllergen(allergen)">
+      <ion-label>{{ allergen }}</ion-label>
+      <ion-checkbox slot="end" [checked]="isSelected(allergen)" aria-label="AASDSA"></ion-checkbox>
+    </ion-item>
+  </ion-list>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-buttons slot="end">
+      <ion-button (click)="saveModal()">Save</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>
+
+

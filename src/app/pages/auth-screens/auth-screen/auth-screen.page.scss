@@ -1,0 +1,50 @@
+ion-content{
+    --background: url('../../../../assets/imgs/auth-screen.png');
+    ion-list{
+        margin: -20px 4vh;;
+        border-radius: 20px;
+        box-shadow: 0 0 3px 0 var(--ion-color-medium);
+        ion-segment{
+            --background: var(--ion-color-primary-contrast);
+            border-radius: 20px;
+            border: 1px solid lightgray;
+            --margin-top: 5px;
+            --margin-bottom: 5px;
+            ion-segment-button{
+                --background-checked: var(--ion-color-primary);
+                --indicator-color: var(--ion-color-primary);
+                --border-raius: 20px;
+                --color: var(--ion-color-primary);
+                --color-checked: var(--ion-color-primary-contrast);
+            }
+        } 
+    }
+}
+
+.logo {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    margin-top: -20px;
+    position: relative;
+    top: -30px;
+  }
+  
+
+
+    .safe-area-content {
+        padding-top: var(--ion-safe-area-top);
+        padding-bottom: var(--ion-safe-area-bottom);
+        padding-left: var(--ion-safe-area-left);
+        padding-right: var(--ion-safe-area-right);
+      }
+
+
+.marginBottom{
+    margin-bottom: 5vh;
+}
+
+.ion-margin {
+    margin: 5px;
+  }

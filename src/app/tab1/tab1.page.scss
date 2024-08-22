@@ -1,0 +1,14 @@
+ion-content{
+  --background: #f8f9fa;
+}
+
+ion-toolbar {
+  --background: #3880ff;
+  --color: #fff;
+}
+
+body.barcode-scanner-active {
+    visibility: hidden;
+    --background: transparent;
+    --ion-background-color: transparent;
+  }

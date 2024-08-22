@@ -1,0 +1,48 @@
+<form [formGroup]="signinForm" class="ion-margin">
+    <div class="ion-margin-vertical">
+      <ion-item lines="full">
+        <ion-input formControlName="email" class="input" type="text" placeholder="Enter email"></ion-input>
+          <ion-icon name="mail-outline"></ion-icon>
+      </ion-item>
+      <div *ngIf="this.signinForm.controls?.['email'].touched && this.signinForm.controls?.['email'].invalid">
+        <ion-text *ngIf="errorControl.email.errors?.required">
+          Email is required
+        </ion-text>
+        <ion-text *ngIf="errorControl.email.errors?.pattern">
+           Email should be valid
+        </ion-text>
+      </div>
+
+      <ion-item>
+        <ion-icon [name]="type ? 'eye' : 'eye-off'" slot="end" color="dark" (click)="changeType()"></ion-icon>
+        <ion-input formControlName="password" class="input" [type]="type ? 'password' : 'text'" placeholder="Enter password"></ion-input>
+      </ion-item>
+      <div *ngIf="this.signinForm.controls?.['password'].touched && this.signinForm.controls?.['password'].invalid">
+        <ion-text *ngIf="errorControl.password.errors?.required">
+          Password is required
+        </ion-text>
+        <ion-text *ngIf="errorControl.password.errors?.pattern">
+          Eight or more characters
+       </ion-text>
+      </div>
+
+      <div class="ion-text-right ion-margin-horizontal">
+        <a [routerLink]="['/reset-password']" style="color:primary"> Forgot password? </a>
+      </div>
+    </div>
+
+    <div class="ion-margin-horizontal">
+      <ion-button class="ion-margin-horizontal" (click)="signin()" size="large" expand="block" shape="round">
+        <ion-text>Sign In</ion-text>
+      </ion-button>
+    </div>
+
+      <p class="ion-text-center">
+        <ion-text color="medium"> OR </ion-text>
+      </p>
+
+      <div class="guest">
+        <p><a [routerLink]="['/tabs/tab1']" style="color:primary"> Continue as a guest</a></p>
+      </div>
+      
+  </form>

@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/tabs/tab3"></ion-back-button>
+    </ion-buttons>
+    <ion-title>My Profile</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card *ngIf="user">
+      <ion-card-content>
+        <p>Name: {{ user.fullName }}</p>
+      </ion-card-content>
+    <ion-card-content>
+      <p>Email: {{ user.email }}</p>
+    </ion-card-content>
+    <ion-card-content>
+      <p>Allergens: {{ user.allergens }}</p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

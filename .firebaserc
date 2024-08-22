@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "allergen-demo": {
+      "hosting": {
+        "app": [
+          "allergen-demo"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "allergen-demo"
+  }
+}
