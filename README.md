@@ -150,5 +150,5 @@ ionic serve
 ---
 
 ## 🧑‍💻 Author
-**Tuğba Aktürkk**  
+**Tuğba Aktürk**  
 Computer Engineering Student | Junior Software Developer
