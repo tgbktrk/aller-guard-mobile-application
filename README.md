@@ -134,6 +134,5 @@ ionic serve
 
 **Developer:** Tuğba Aktürk  
 **Email:** [tugba.aktuerk@hs-osnabrueck.de](mailto:tugba.aktuerk@hs-osnabrueck.de)  
-**GitHub:** [github.com/your-username](https://github.com/your-username)
 
 ---
