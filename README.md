@@ -116,16 +116,16 @@ ionic serve
 |-----|------|------------|
 | ![News](./screenshots/news.PNG) | ![FAQ](./screenshots/FAQ.PNG) | ![About](./screenshots/about1.PNG) |
 
-| About Page 2 | Settings Page | Settings Page 2 |
+| About Page 2 | Settings Page before Login | Settings Page after Login |
 |-------------|--------------|-----------------|
 | ![About 2](./screenshots/about2.PNG) | ![Settings](./screenshots/settings1.PNG) | ![Settings 2](./screenshots/settings2.PNG) |
 
 ---
 
-### **Profile & Other Screens**
-| Profile | Sign Out Confirmation |
-|--------|------------------------|
-| ![Profile](./screenshots/profile.PNG) | ![Sign Out](./screenshots/icerik_uyarısı2.PNG) |
+### **Profile Screen**
+| Profile 
+|--------|
+| ![Profile](./screenshots/profile.PNG) |
 
 ---
 
