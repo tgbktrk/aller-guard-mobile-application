@@ -112,9 +112,9 @@ ionic serve
 ---
 
 ### **Information & Help Pages**
-| FAQ | News | About Page |
+| FAQ | About Page | News |
 |-----|------|------------|
-| ![FAQ](./screenshots/FAQ.PNG) | ![News](./screenshots/news.PNG) | ![About](./screenshots/about1.PNG) |
+| ![FAQ](./screenshots/FAQ.PNG) | ![About](./screenshots/about1.PNG) | ![News](./screenshots/news.PNG) |
 
 | About Page 2 | Settings Page | Settings Page 2 |
 |-------------|--------------|-----------------|
