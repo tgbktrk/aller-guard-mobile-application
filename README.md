@@ -107,7 +107,7 @@ ionic serve
 ### **Allergen Warnings**
 | Allergen Detected | No Allergen Detected | Add Allergen Without Account |
 |-------------------|----------------------|-------------------------------|
-| ![Allergen Detected](./screenshots/allergen_warning1.jpeg) | ![No Allergen Detected](./screenshots/allergen_warning2.jpeg) | ![Add Allergen Warning](./screenshots/alerjen_giris_uyarısı.jpeg) |
+| ![Allergen Detected](./screenshots/allergen_warning1.PNG) | ![No Allergen Detected](./screenshots/allergen_warning2.PNG) | ![Add Allergen Warning](./screenshots/alerjen_giris_uyarısı.PNG) |
 
 ---
 
