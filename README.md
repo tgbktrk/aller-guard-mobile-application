@@ -93,39 +93,40 @@ ionic serve
 ### **Authentication Screens**
 | Login | Register |
 |-------|---------|
-| ![Login](./screenshots/login.jpeg) | ![Register](./screenshots/register.jpeg) |
+| ![Login](./screenshots/login.PNG) | ![Register](./screenshots/register.PNG) |
 
 ---
 
 ### **Main Features**
 | Barcode Scan | Allergen List | Allergen Details |
 |-------------|---------------|------------------|
-| ![Scan](./screenshots/scan.jpeg) | ![Allergen List](./screenshots/allergen1.jpeg) | ![Allergen Details](./screenshots/allergen2.jpeg) |
+| ![Scan](./screenshots/scan.PNG) | ![Allergen List](./screenshots/allergen1.PNG) | ![Allergen Details](./screenshots/allergen2.PNG) |
 
 ---
 
 ### **Allergen Warnings**
 | Content Warning | Allergen Add Warning |
 |-----------------|----------------------|
-| ![Content Warning](./screenshots/icerik_uyarısı.jpeg) | ![Add Allergen Warning](./screenshots/alerjen_giris_uyarısı.jpeg) |
+| ![Content Warning](./screenshots/icerik_uyarısı.PNG) | ![Add Allergen Warning](./screenshots/alerjen_giris_uyarısı.PNG) |
 
 ---
 
 ### **Information & Help Pages**
 | FAQ | News | About Page |
 |-----|------|------------|
-| ![FAQ](./screenshots/FAQ.jpeg) | ![News](./screenshots/news.jpeg) | ![About](./screenshots/about1.jpeg) |
+| ![FAQ](./screenshots/FAQ.PNG) | ![News](./screenshots/news.PNG) | ![About](./screenshots/about1.PNG) |
 
 | About Page 2 | Settings Page | Settings Page 2 |
 |-------------|--------------|-----------------|
-| ![About 2](./screenshots/about2.jpeg) | ![Settings](./screenshots/settings1.jpeg) | ![Settings 2](./screenshots/settings2.jpeg) |
+| ![About 2](./screenshots/about2.PNG) | ![Settings](./screenshots/settings1.PNG) | ![Settings 2](./screenshots/settings2.PNG) |
 
 ---
 
 ### **Profile & Other Screens**
 | Profile | Sign Out Confirmation |
 |--------|------------------------|
-| ![Profile](./screenshots/profile.jpeg) | ![Sign Out](./screenshots/icerik_uyarısı2.jpeg) |
+| ![Profile](./screenshots/profile.PNG) | ![Sign Out](./screenshots/icerik_uyarısı2.PNG) |
+
 ---
 
 ## 🧪 Testing & Security  
