@@ -74,6 +74,8 @@ npm install
 # Run the app
 ionic serve
 
+```
+
 ## 🔄 How It Works  
 
 1. **Sign Up / Sign In** → Create an account or continue as a guest.  
