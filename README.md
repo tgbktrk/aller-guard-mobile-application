@@ -152,6 +152,5 @@ ionic serve
 ## 📧 Contact  
 
 **Developer:** Tuğba Aktürk  
-**Email:** [tugba.aktuerk@hs-osnabrueck.de](mailto:tugba.aktuerk@hs-osnabrueck.de)  
 
 ---
