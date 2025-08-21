@@ -149,8 +149,6 @@ ionic serve
 
 ---
 
-## 📧 Contact  
-
-**Developer:** Tuğba Aktürk  
-
----
+## 🧑‍💻 Author
+**Tuğba Aktürkk**  
+Computer Engineering Student | Junior Software Developer
