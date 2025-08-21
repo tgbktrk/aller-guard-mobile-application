@@ -94,19 +94,19 @@ ionic serve
 
 | Login & Register | Scan Product | Allergen List |
 |------------------|-------------|---------------|
-| ![Login](./screenshots/login.pg) | ![Scan](./screenshots/scan.png) | ![Allergens](./screenshots/allergens.png) |
+| ![Login](./screenshots/login.PNG) | ![Scan](./screenshots/scan.PNG) | ![Allergens](./screenshots/allergens.PNG) |
 
 | Warning Alerts | Allergen Details | FAQ |
 |---------------|------------------|-----|
-| ![Alert](./screenshots/alert.png) | ![Allergen Info](./screenshots/allergen-info.png) | ![FAQ](./screenshots/faq.png) |
+| ![Alert](./screenshots/alert.PNG) | ![Allergen Info](./screenshots/allergen-info.PNG) | ![FAQ](./screenshots/faq.PNG) |
 
 | Profile | News | Settings |
 |--------|------|----------|
-| ![Profile](./screenshots/profile.png) | ![News](./screenshots/news.png) | ![Settings](./screenshots/settings.png) |
+| ![Profile](./screenshots/profile.PNG) | ![News](./screenshots/news.PNG) | ![Settings](./screenshots/settings.PNG) |
 
 | About Page | Sign Out | Error Warning |
 |-----------|-----------|---------------|
-| ![About](./screenshots/about.png) | ![Sign Out](./screenshots/signout.png) | ![Warning](./screenshots/warning.png) |
+| ![About](./screenshots/about.PNG) | ![Sign Out](./screenshots/signout.PNG) | ![Warning](./screenshots/warning.PNG) |
 
 ---
 
