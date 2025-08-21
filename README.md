@@ -74,11 +74,64 @@ npm install
 # Run the app
 ionic serve
 
-🔄 How It Works
-	1.	Sign Up or Sign In – Create an account or continue as a guest.
-	2.	Add Allergens – Save allergens you want to avoid.
-	3.	Scan Barcode – Use the camera to scan a product barcode.
-	4.	Fetch Data from OpenFoodFacts API –
-The app automatically requests allergen and product information from the OpenFoodFacts API.
-	5.	Get Warnings – Instantly know if the product contains allergens matching your profile.
-	6.	Read News & FAQs – Stay informed with trusted allergy-related resources.
+## 🔄 How It Works  
+
+1. **Sign Up / Sign In** → Create an account or continue as a guest.  
+2. **Add Allergens** → Save allergens you want to avoid.  
+3. **Scan Barcode** → Use your camera to scan the product’s barcode.  
+4. **Fetch Data via OpenFoodFacts API** →  
+   The app automatically retrieves **product and allergen data** from the OpenFoodFacts API.  
+5. **Instant Warnings** → If allergens are detected, a **real-time alert** is displayed.  
+6. **Read News & FAQs** → Access up-to-date information and educational resources.  
+
+---
+
+## 📷 Screenshots  
+
+> **Note:** You can add your screenshots here later. Example:  
+
+| Login & Register | Scan Product | Allergen List |
+|------------------|-------------|---------------|
+| ![Login](./screenshots/login.jpeg) | ![Scan](./screenshots/scan.jpeg) | ![Allergens](./screenshots/allergens.jpeg) |
+
+| Warning Alerts | Allergen Details | FAQ |
+|---------------|------------------|-----|
+| ![Alert](./screenshots/alert.jpeg) | ![Allergen Info](./screenshots/allergen-info.jpeg) | ![FAQ](./screenshots/faq.jpeg) |
+
+| Profile | News | Settings |
+|--------|------|----------|
+| ![Profile](./screenshots/profile.jpeg) | ![News](./screenshots/news.jpeg) | ![Settings](./screenshots/settings.jpeg) |
+
+| About Page | Sign Out | Error Warning |
+|-----------|-----------|---------------|
+| ![About](./screenshots/about.jpeg) | ![Sign Out](./screenshots/signout.jpeg) | ![Warning](./screenshots/warning.jpeg) |
+
+---
+
+## 🧪 Testing & Security  
+
+### **Testing Approaches**  
+- **Functional Tests** → Barcode scanning, allergen detection, profile management  
+- **Integration Tests** → Ensure OpenFoodFacts API and Firebase are working together correctly  
+- **Performance Tests** → Evaluate response times and database load handling  
+- **Usability Tests** → Intuitive UI designed for all age groups  
+- **Compatibility Tests** → Works seamlessly on **Android** and **iOS**  
+
+---
+
+### **Security Measures**  
+- **Firebase Authentication** with session management  
+- **Firestore Security Rules** for controlled data access  
+- **Data Encryption** during storage and transmission  
+- **Regular Vulnerability Scans** for improved safety  
+- **No Sensitive Information Stored Locally**  
+
+---
+
+## 📧 Contact  
+
+**Developer:** Tuğba Aktürk  
+**Email:** [tugba.aktuerk@hs-osnabrueck.de](mailto:tugba.aktuerk@hs-osnabrueck.de)  
+**GitHub:** [github.com/your-username](https://github.com/your-username)
+
+---
