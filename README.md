@@ -88,26 +88,44 @@ ionic serve
 
 ---
 
-## 📷 Screenshots  
+## 📷 Screenshots
 
-> **Note:** You can add your screenshots here later. Example:  
+### **Authentication Screens**
+| Login | Register |
+|-------|---------|
+| ![Login](./screenshots/login.jpeg) | ![Register](./screenshots/register.jpeg) |
 
-| Login & Register | Scan Product | Allergen List |
-|------------------|-------------|---------------|
-| ![Login](./screenshots/login.PNG) | ![Scan](./screenshots/scan.PNG) | ![Allergens](./screenshots/allergens.PNG) |
+---
 
-| Warning Alerts | Allergen Details | FAQ |
-|---------------|------------------|-----|
-| ![Alert](./screenshots/alert.PNG) | ![Allergen Info](./screenshots/allergen-info.PNG) | ![FAQ](./screenshots/faq.PNG) |
+### **Main Features**
+| Barcode Scan | Allergen List | Allergen Details |
+|-------------|---------------|------------------|
+| ![Scan](./screenshots/scan.jpeg) | ![Allergen List](./screenshots/allergen1.jpeg) | ![Allergen Details](./screenshots/allergen2.jpeg) |
 
-| Profile | News | Settings |
-|--------|------|----------|
-| ![Profile](./screenshots/profile.PNG) | ![News](./screenshots/news.PNG) | ![Settings](./screenshots/settings.PNG) |
+---
 
-| About Page | Sign Out | Error Warning |
-|-----------|-----------|---------------|
-| ![About](./screenshots/about.PNG) | ![Sign Out](./screenshots/signout.PNG) | ![Warning](./screenshots/warning.PNG) |
+### **Allergen Warnings**
+| Content Warning | Allergen Add Warning |
+|-----------------|----------------------|
+| ![Content Warning](./screenshots/icerik_uyarısı.jpeg) | ![Add Allergen Warning](./screenshots/alerjen_giris_uyarısı.jpeg) |
 
+---
+
+### **Information & Help Pages**
+| FAQ | News | About Page |
+|-----|------|------------|
+| ![FAQ](./screenshots/FAQ.jpeg) | ![News](./screenshots/news.jpeg) | ![About](./screenshots/about1.jpeg) |
+
+| About Page 2 | Settings Page | Settings Page 2 |
+|-------------|--------------|-----------------|
+| ![About 2](./screenshots/about2.jpeg) | ![Settings](./screenshots/settings1.jpeg) | ![Settings 2](./screenshots/settings2.jpeg) |
+
+---
+
+### **Profile & Other Screens**
+| Profile | Sign Out Confirmation |
+|--------|------------------------|
+| ![Profile](./screenshots/profile.jpeg) | ![Sign Out](./screenshots/icerik_uyarısı2.jpeg) |
 ---
 
 ## 🧪 Testing & Security  
